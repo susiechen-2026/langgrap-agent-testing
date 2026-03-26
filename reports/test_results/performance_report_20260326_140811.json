@@ -1,0 +1,45 @@
+{
+  "total_runs": 3,
+  "average_intent_score": 0.8889,
+  "average_tool_score": 0.75,
+  "average_decomposition_score": 0.8911,
+  "average_decision_score": 0.82,
+  "intent_details": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.6666666666666666,
+    "accuracy": 0.5,
+    "true_positives": 2,
+    "false_positives": 1,
+    "false_negatives": 1,
+    "true_negatives": 0,
+    "total_samples": 4,
+    "threshold": 0.8,
+    "is_successful": false
+  },
+  "tool_details": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1_score": 0.7499999999999999,
+    "accuracy": 0.6,
+    "true_positives": 3,
+    "false_positives": 0,
+    "false_negatives": 2,
+    "true_negatives": 0,
+    "total_samples": 5,
+    "threshold": 0.85,
+    "is_successful": false
+  },
+  "decomposition_details": {
+    "completeness": 30.0,
+    "logical": 30.0,
+    "granularity": 20.0,
+    "executable": 13.333333333333332,
+    "score": 0.9333333333333332,
+    "threshold": 0.7,
+    "is_successful": true
+  },
+  "decision_details": {
+    "score": 0.82
+  }
+}
